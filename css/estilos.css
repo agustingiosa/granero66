@@ -1,0 +1,812 @@
+/*selector {
+    propiedad: valor;
+}*/
+
+
+@font-face {
+    font-family: air americana;
+    src: url(../fonts/AIR\ AMERICANA.TTF);
+    font-family: cursive;
+    src: url(../fonts/ritts\ cursive.ttf);
+    font-family: bebas;
+    src: url(../fonts/BEBASNEUE\ BOLD.OTF);
+}
+
+::selection {
+    background-color: #dcdcdc;
+    color: #333;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*GENERAL*/
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.headerList2 {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.header2 {
+    background-color: antiquewhite;
+    padding: 4rem;
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+    top: -1rem;
+}
+
+.headerText2 {
+    font-size: 3rem;
+    font-family: air americana; 
+    display: inline-block;
+    margin-right: 45rem;
+}
+
+.listfooter {
+    background-color: antiquewhite;
+    list-style-type: none;
+    padding: 9rem;
+    text-align: left ;
+    bottom: 0rem;
+    position: relative;
+}
+
+.footertext {
+    font-size: 1.3rem;
+    display: inline-block;
+    width: 45%;
+    font-family: bebas;
+}
+
+.footerIcono{
+    margin: 0 auto;
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+}
+
+.logo {
+    float: right;
+    width: auto;
+    height: 10rem;
+}
+
+/*INDEX*/
+
+.gridContainerIndex{
+    display: grid;
+    grid-template-areas: 
+    'header' 
+    'main' 'main' 'main'
+    'footer';
+}
+
+.headerIndex {
+    grid-area: header;
+}
+
+.mainIndex {
+    grid-area: main;
+}
+
+.footerIndex {
+    grid-area: footer;
+}
+
+/*HEADER PAGINA PRINCIPAL*/
+.minilogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0%;
+    right: 5%;
+    width: 7rem;
+    height: 7rem;
+    z-index: 1000; 
+}
+
+.mainheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    padding: 4rem;
+    text-align: center;
+    list-style-type: none;
+    position: fixed;
+    width: 100%;
+    z-index: 1000; 
+}
+
+.mainheader li {
+    display: flex;
+    font-size: 3rem;
+    font-family: air americana; 
+    display: inline-block;
+    margin-right: 3rem;
+    z-index: 100; 
+}
+
+/*PRINCIPAL*/
+
+/*MAIN*/
+
+.imagen{
+    position: center;
+    display: flex;
+    margin: 0 ;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.texto1 {
+    grid-area: area1;
+    display: flex;
+    top: 43%;
+    left: 35%;
+    color: white;
+    position: absolute;
+    font-size: 7rem;
+    font-family: bebas;
+    text-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 2);
+    overflow: hidden;
+    margin:1rem;
+    width: 33rem;
+    height: 8rem;
+}
+
+.texto2 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    font-size: 9rem;
+    font-family: air americana;
+    text-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 2);
+    overflow: hidden;
+    margin:1rem;
+    width: 55rem;
+    height: 12rem;
+    transform: rotate(-10deg);
+}
+
+.texto3{
+    color: white;
+    position: absolute;
+    top: 130%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    font-size: 5rem;
+    font-family: bebas;
+    text-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 2);
+    overflow: hidden;
+    margin:1rem;
+    width: 43rem;
+    height: 8rem;
+}
+
+.texto4 {
+    color: white;
+    position: absolute;
+    top: 142%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    font-size: 3rem;
+    font-family: cursive;
+    text-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 2);
+    overflow: hidden;
+    margin:1rem;
+    width: 33rem;
+    height: 8rem;
+}
+
+.texto5 {
+    color: white;
+    position: absolute;
+    top: 155%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    font-size: 3rem;
+    font-family: bebas;
+    text-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 2);
+    overflow: hidden;
+    margin:1rem;
+    width: 35rem;
+    height: 8rem;
+}
+
+.texto6 {
+    color: white;
+    position: absolute;
+    top: 270%;
+    left: 33%;
+    transform: translate(-50%,-50%);
+    font-size: 5rem;
+    font-family: bebas;
+    text-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 2);
+    overflow: hidden;
+    margin:1rem;
+    width: 50rem;
+    height: 18rem;
+    -webkit-text-stroke: 2px black;
+}
+
+.iconoHamb .icon{
+    position: absolute;
+    width: 25rem;
+    height: 25rem;
+    top: 190%;
+    left: 20%;
+    margin: 0;
+}
+
+.iconoUbi .icon {
+    position: absolute;
+    width: 25rem;
+    height: 25rem;
+    top: 190%;
+    left: 40%;
+    margin: 0;
+}
+
+/*UBICACION*/
+
+/*MAIN*/
+
+.imagenUbi {
+    width: 100%;
+    height: auto;
+    position: center;
+}
+
+.mainUbi {
+    position: center;
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+.cajaHorarios {
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #fff; 
+    padding: 20px; 
+    height: 13rem;
+    width: 30rem;
+    top: 40%;
+    left: 10%;
+    position: absolute;
+    border: 1rem solid antiquewhite;
+    font-family: bebas;
+    font-size: 2rem;
+}
+
+.mapa {
+    height: 45rem;
+    width: 30rem;
+}
+
+.cajaUbicacion {
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #fff; 
+    padding: 20px; 
+    height: 50rem;
+    width: 30rem;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    border: 1rem solid antiquewhite;
+    font-family: bebas;
+    font-size: 2rem;
+}
+
+/*SOBRE NOSOTROS*/
+
+/*MAIN*/
+
+.bodySN {
+    background-image: url(../img/Granero.Menu_DSC_4054.jpg);
+    background-size: 200%;
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+}
+
+.imagenRestaurante {
+    position: relative;
+    display: block;
+    margin: 10px;
+    width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+}
+
+.textoRestaurante {
+    padding: 20px; 
+    height: 50rem;
+    width: 30rem;
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    font-family: bebas;
+    font-size: 2rem;
+}
+
+.restaurante { 
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #fff; 
+    padding: 20px; 
+    height: 32rem;
+    width: 70rem;
+    position: relative;
+    border: 1rem solid antiquewhite;
+    top: 10rem;
+    left: 10%;
+    margin: 2rem;
+}
+
+.imagenMuseo {
+    position: relative;
+    display: block;
+    margin: 10px;
+    width: 30rem;
+    height: 30rem;
+    overflow: hidden;
+    left: 55%;
+}
+
+.textoMuseo {
+    padding: 20px; 
+    height: 50rem;
+    width: 30rem;
+    left: 4%;
+    top: -70%;
+    position: relative;
+    font-family: bebas;
+    font-size: 2rem;
+}
+
+.museo {
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #fff; 
+    padding: 20px; 
+    height: 32rem;
+    width: 70rem;
+    margin: 2rem;
+    position: relative;
+    border: 1rem solid antiquewhite;
+    top: 15rem;
+    left: 40%;
+}
+
+.redesSNF {
+    position: absolute;
+    display: block;
+    margin: 10px;
+    width: 10rem;
+    height: 10rem;
+    top: 9rem;
+    left: 5rem;
+    overflow: hidden;
+}
+.redesSNI {
+    position: relative;
+    display: block;
+    margin: 10px;
+    width: 10rem;
+    height: 10rem;
+    top: 7rem;
+    left: 20rem;
+    overflow: hidden;
+}
+
+.textoRedes {
+    padding: 20px; 
+    height: 50rem;
+    width: 30rem;
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    font-family: bebas;
+    font-size: 2rem;
+}
+
+.redes { 
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #fff; 
+    padding: 20px; 
+    height: 32rem;
+    width: 70rem;
+    position: relative;
+    border: 1rem solid antiquewhite;
+    top: 20rem;
+    left: 10%;
+    margin: 2rem;
+}
+
+/*CONTACTO*/
+
+.bodyC {
+    background-image: url(../img/trabajo.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 120rem;
+}
+
+/*MAIN*/
+
+.estiloForm {
+    font-family: bebas;
+    font-size: 2rem;
+}
+
+.cajaFormulario {
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #fff; 
+    padding: 20px; 
+    height: 30rem;
+    width: 70rem;
+    margin: 2rem;
+    position: relative;
+    border: 1rem solid antiquewhite;
+    top: 15rem;
+    left: 20%;
+}
+
+.formularioContacto {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.formulario {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.botonEnviar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: brown;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: bebas;
+    font-size: 2rem;
+}
+
+.cajaRedes {
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #fff; 
+    padding: 20px; 
+    height: 30rem;
+    width: 70rem;
+    margin: 2rem;
+    position: relative;
+    border: 1rem solid antiquewhite;
+    top: 30rem;
+    left: 20%;
+}
+
+.textoRedesT {
+    position: relative;
+    margin: 2rem;
+    font-size: 2rem;
+    font-family: bebas;
+    top: 10;
+    left: 24rem;
+}
+.textoRedesP {
+    position: relative;
+    margin: 1rem;
+    font-size: 2rem;
+    font-family: cursive;
+    top: 15;
+    left: 7rem;
+}
+
+.imgI {
+    position: relative;
+    display: block;
+    margin: 10px;
+    width: 10rem;
+    height: 10rem;
+    top: 7rem;
+    left: 20rem;
+    overflow: hidden;
+}
+
+.imgF {
+    position: relative;
+    display: block;
+    margin: 10px;
+    width: 10rem;
+    height: 10rem;
+    top: -3rem;
+    left: 50rem;
+    overflow: hidden;
+}
+
+/*TRABAJO*/
+
+/*MAIN*/
+
+.bodyT {
+    background-image: url(../img/foto\ granero1\ editada.png);
+    background-size: 200%;
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+}
+
+.imagenTrabajo {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.tituloT {
+    display: inline-block;
+    position: relative;
+    left: 25%;
+    font-family: cursive;
+    font-size: 2rem;
+    color: antiquewhite;
+    border: 0.5rem solid antiquewhite;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/*FORMULARIO*/
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 0.25em;
+    box-shadow: 0 0 0 1px gray;
+}
+
+input[type="file"] {
+    margin-bottom: 1em;
+}
+
+input[type="submit"] {
+    background-color: brown;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: brown;
+}
+
+.cajaFormularioCV {
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #fff; 
+    padding: 20px; 
+    height: 50rem;
+    width: 70rem;
+    margin: 2rem;
+    position: relative;
+    border: 1rem solid antiquewhite;
+    top: 10rem;
+    left: 20%;
+}
+
+/*MENU*/
+
+/*MENU*/
+.bodyMenu {
+    background-image: url(../img/Granero.Menu_DSC_4054.jpg);
+    margin-bottom: 20rem;
+}
+.bodyMenu .listfooter {
+    bottom: -32rem;
+}
+
+/*HEADER*/
+
+.headerMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 98%;
+    width: 40rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #333;
+    color: #fff;
+    border: 1rem solid antiquewhite;
+}
+
+.navMenu {
+    margin-top: 30rem;
+}
+
+.HM {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerM {
+    margin-bottom: 20px;
+}
+
+.headerTextMenu {
+    text-decoration: none;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: air americana;
+}
+
+/*MAIN*/
+
+.tituloH {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 54%;
+    margin-top: 3rem;
+    font-family: bebas;
+    font-size: 4rem;
+    color: white;
+    border: 1rem solid antiquewhite;
+    background-color: rgba(0, 0, 0, 0.8); 
+    width: 20rem;
+    height: 6rem;
+}
+
+.contenedorSectHamb {
+    position: relative;
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    left: 70rem;
+    width: 91rem;
+    overflow: hidden;
+    gap: 3rem;
+}
+
+.contenedorHamb {
+    width: calc(20% - 1rem); 
+    height: 40rem;
+    margin-bottom: 20px; 
+    background-color: #f5f5f5;
+    padding: 4rem;
+    border:  1rem solid antiquewhite;
+    background-color: rgba(0, 0, 0, 0.8); 
+    overflow: hidden;
+}
+
+.imagenHamb {
+    display: flex;
+    position: relative;
+    left: -3.4rem;
+    width: 24rem;
+    height: 20rem;
+}
+
+.textHamb {
+    text-align: center;
+    font-size: 3rem;
+    font-family: bebas;
+    color: white;
+}
+
+.recordatorio {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 51%;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    font-family: cursive;
+    font-size: 2rem;
+    color: white;
+    border: 1rem solid antiquewhite;
+    background-color: rgba(0, 0, 0, 0.8); 
+    width: 30rem;
+    height: auto;
+}
+
+
+/*TIPOS DE PANTALLAS*/
+/*INDEX*/
+@media screen and (max-width: 768px) {
+    .minilogo{
+        width: 3rem;
+        height: 3rem;
+        right: 0%;
+    }
+    .mainheader{
+        width: 100%;
+    }
+    .texto1 {
+        top: 25%;
+        left: 25%;
+        font-size: 5rem;
+        width: 25rem;
+    }
+    .texto2 {
+        top: 30%;
+        left: 40%;
+        font-size: 5rem;
+        width: 22rem;
+        height: 7rem;
+    }
+    .texto3 {
+        font-size: 4rem;
+        top: 70%;
+        left: 30%;
+    }
+    .texto4 {
+        top: 78%;
+        left: 30%;
+    }
+    .texto5 {
+        top: 86%;
+    }
+    .texto6 {
+        top: 140%;
+    }
+    .listfooter {
+        padding: 2rem;
+    }
+    .iconoHamb .icon {
+        top: 95%;
+        height: 15rem;
+        width: 15rem;
+    }
+    .iconoUbi .icon {
+        top: 95%;
+        height: 15rem;
+        width: 15rem;
+    }
+}
