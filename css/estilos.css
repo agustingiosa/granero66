@@ -652,6 +652,21 @@ input[type="submit"]:hover {
 
 /*MAIN*/
 
+.recordatorio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    font-family: cursive;
+    font-size: 2rem;
+    color: white;
+    border: 1rem solid antiquewhite;
+    background-color: rgba(0, 0, 0, 0.8); 
+    width: 30rem;
+    height: auto;
+}
+
 .tituloH {
     display: flex;
     justify-content: center;
@@ -709,23 +724,6 @@ input[type="submit"]:hover {
     color: white;
 }
 
-.recordatorio {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: 51%;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
-    font-family: cursive;
-    font-size: 2rem;
-    color: white;
-    border: 1rem solid antiquewhite;
-    background-color: rgba(0, 0, 0, 0.8); 
-    width: 30rem;
-    height: auto;
-}
-
 
 /*TIPOS DE PANTALLAS*/
 /*INDEX*/
@@ -734,40 +732,6 @@ input[type="submit"]:hover {
         width: 3rem;
         height: 3rem;
         right: 0%;
-    }
-    .mainheader{
-        width: 100%;
-    }
-    .texto1 {
-        top: 25%;
-        left: 25%;
-        font-size: 5rem;
-        width: 25rem;
-    }
-    .texto2 {
-        top: 30%;
-        left: 40%;
-        font-size: 5rem;
-        width: 22rem;
-        height: 7rem;
-    }
-    .texto3 {
-        font-size: 4rem;
-        top: 70%;
-        left: 30%;
-    }
-    .texto4 {
-        top: 78%;
-        left: 30%;
-    }
-    .texto5 {
-        top: 86%;
-    }
-    .texto6 {
-        top: 140%;
-    }
-    .listfooter {
-        padding: 2rem;
     }
     .iconoHamb .icon {
         top: 95%;
