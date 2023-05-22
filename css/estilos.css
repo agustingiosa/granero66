@@ -122,26 +122,6 @@ a {
 
 /*INDEX*/
 
-.gridContainerIndex{
-    display: grid;
-    grid-template-areas: 
-    'header' 
-    'main' 'main' 'main'
-    'footer';
-}
-
-.headerIndex {
-    grid-area: header;
-}
-
-.mainIndex {
-    grid-area: main;
-}
-
-.footerIndex {
-    grid-area: footer;
-}
-
 /*HEADER PAGINA PRINCIPAL*/
 .minilogo {
     display: flex;
@@ -213,23 +193,44 @@ a {
     overflow: hidden;
 }
 
-.iconoHamb .icon{
+.iconoHamb {
     position: absolute;
     width: 25rem;
     height: 25rem;
-    top: 190%;
-    left: 20%;
+    top: 137rem;
+    left: 30rem;
     margin: 0;
 }
 
-.iconoUbi .icon {
+.iconoUbi  {
     position: absolute;
     width: 25rem;
     height: 25rem;
-    top: 190%;
-    left: 40%;
+    top: 137rem;
+    left: 75rem;
     margin: 0;
 }
+
+
+
+@media (min-width: 768px) and (max-width: 1080px) {
+    .iconoHamb  {
+        height: 20rem;
+        width: 20rem;
+        top: 180rem;
+        left: 21rem;
+    }
+    .iconoUbi  {
+        height: 20rem;
+        width: 20rem;
+        top: 180rem;
+        left: 60rem;
+    }
+}
+
+
+
+
 
 /*UBICACION*/
 
@@ -724,23 +725,3 @@ input[type="submit"]:hover {
     color: white;
 }
 
-
-/*TIPOS DE PANTALLAS*/
-/*INDEX*/
-@media screen and (max-width: 768px) {
-    .minilogo{
-        width: 3rem;
-        height: 3rem;
-        right: 0%;
-    }
-    .iconoHamb .icon {
-        top: 95%;
-        height: 15rem;
-        width: 15rem;
-    }
-    .iconoUbi .icon {
-        top: 95%;
-        height: 15rem;
-        width: 15rem;
-    }
-}
