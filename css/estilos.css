@@ -219,8 +219,10 @@ a {
     margin-bottom: 5rem;
     text-align: center;
     border-radius: 10px;
-    border: 2px solid transparent;
     box-shadow: 1px 30px 20px rgba(0, 0, 0, 0.1);
+    background-color: gainsboro; 
+    border: 1rem solid antiquewhite;
+    color: #fff; 
 }
 .services_boxes .box p{
     color: black;
@@ -358,6 +360,7 @@ a {
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.8); 
+    border: 1rem solid antiquewhite;
     color: #fff; 
     padding: 2rem; 
     padding-right: 5rem;
@@ -365,7 +368,6 @@ a {
     width: 100%;
     top: 40%;
     left: 50%;
-    border: 1rem solid antiquewhite;
     font-family: bebas;
     font-size: 2rem;
 }
@@ -381,123 +383,104 @@ a {
 
 .bodySN {
     background-image: url(../img/Granero.Menu_DSC_4054.jpg);
-    background-size: 200%;
-    margin: 0;
-    position: relative;
-    min-height: 100vh;
+    background-size: 100%;
 }
 
 .imagenRestaurante {
-    position: relative;
-    display: block;
     margin: 10px;
     width: 30rem;
     height: 30rem;
-    overflow: hidden;
 }
 
 .textoRestaurante {
     padding: 20px; 
     height: 50rem;
-    width: 30rem;
+    width: 40rem;
     top: 30%;
     left: 50%;
-    position: absolute;
     font-family: bebas;
     font-size: 2rem;
 }
 
 .restaurante { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: rgba(0, 0, 0, 0.8); 
     color: #fff; 
     padding: 20px; 
-    height: 32rem;
+    height: 40rem;
     width: 70rem;
-    position: relative;
     border: 1rem solid antiquewhite;
-    top: 10rem;
-    left: 10%;
     margin: 2rem;
 }
 
 .imagenMuseo {
-    position: relative;
-    display: block;
-    margin: 10px;
+    margin: 1rem;
     width: 30rem;
     height: 30rem;
-    overflow: hidden;
-    left: 55%;
 }
 
 .textoMuseo {
     padding: 20px; 
     height: 50rem;
-    width: 30rem;
-    left: 4%;
-    top: -70%;
-    position: relative;
+    width: 40rem;
     font-family: bebas;
     font-size: 2rem;
 }
 
 .museo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: rgba(0, 0, 0, 0.8); 
     color: #fff; 
-    padding: 20px; 
-    height: 32rem;
+    padding: 2rem; 
+    height: 40rem;
     width: 70rem;
-    margin: 2rem;
-    position: relative;
     border: 1rem solid antiquewhite;
-    top: 15rem;
-    left: 40%;
+    margin: 2rem;
 }
 
 .redesSNF {
-    position: absolute;
-    display: block;
     margin: 10px;
     width: 10rem;
     height: 10rem;
     top: 9rem;
     left: 5rem;
-    overflow: hidden;
 }
 .redesSNI {
-    position: relative;
-    display: block;
     margin: 10px;
     width: 10rem;
     height: 10rem;
     top: 7rem;
     left: 20rem;
-    overflow: hidden;
 }
 
 .textoRedes {
     padding: 20px; 
     height: 50rem;
-    width: 30rem;
-    top: 30%;
-    left: 50%;
-    position: absolute;
+    width: 40rem;
     font-family: bebas;
     font-size: 2rem;
 }
 
 .redes { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: rgba(0, 0, 0, 0.8); 
     color: #fff; 
     padding: 20px; 
-    height: 32rem;
+    height: 40rem;
     width: 70rem;
-    position: relative;
     border: 1rem solid antiquewhite;
-    top: 20rem;
-    left: 10%;
     margin: 2rem;
 }
+
 
 /*CONTACTO*/
 
