@@ -407,7 +407,7 @@ a {
     padding: 20px; 
     height: 40rem;
     width: 70rem;
-    border: 1rem solid antiquewhite;
+    border: 0.5rem solid antiquewhite;
 }
 
 .imagenMuseo {
@@ -434,7 +434,7 @@ a {
     padding: 2rem; 
     height: 40rem;
     width: 70rem;
-    border: 1rem solid antiquewhite;
+    border: 0.5rem solid antiquewhite;
 }
 
 .redesSNF {
@@ -470,7 +470,7 @@ a {
     padding: 20px; 
     height: 40rem;
     width: 70rem;
-    border: 1rem solid antiquewhite;
+    border: 0.5rem solid antiquewhite;
 }
 
 
