@@ -230,39 +230,33 @@ a {
     border: 2px solid brown;
 }
 
-.novedades_boxes {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1rem;
-}
-.novedades_boxes .box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    height: 50%;
-    background: gainsboro;
-    padding: 2rem;
-    margin: 1rem 2rem;
-    margin-bottom: 5rem;
-    border-radius: 10px;
-    border: 2px solid transparent;
+.novedades {
     box-shadow: 1px 30px 20px rgba(0, 0, 0, 0.1);
+    border: 0.5rem solid antiquewhite;
+    background-color: rgba(0, 0, 0, 0.8);
 }
-.novedades_boxes .box p{
-    color: black;
-    margin-top: 10px;
+.novedades h2 {
+    font-size: 2rem;
+    font-family: bebas;
 }
-.imagenSection3 {
-    margin: 0 ;
-    width: 70%;
-    height: 70%;
+.novedades p {
+    font-size: 1.5rem;
+}
+
+.novedades .imagen {
+    margin: 2rem;
+}
+
+.imagenNovedades{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 .imagen{
-    
     display: flex;
     margin: 0 ;
     width: 100%;
@@ -287,7 +281,7 @@ a {
     height: 90rem;
 }
 
-@media (min-width: 768px) and (max-width: 1090px) {
+@media (min-width: 768px) and (max-width: 1080px) {
     .iconoHamb  {
         height: 10rem;
         width: 10rem;
@@ -308,9 +302,24 @@ a {
     .services_boxes .box {
         margin-bottom: 10rem;
     }
+    .novedades h2{
+        font-family: bebas;
+        font-size: 3rem;
+    }
+    .novedades p{
+        font-size: 2rem;
+    }
 }
 
-
+@media (min-width: 1080) and (max-width: 1440px) {
+    .novedades h2{
+        font-family: bebas;
+        font-size: 10rem;
+    }
+    .novedades p{
+        font-size: 5rem;
+    }
+}    
 
 
 
