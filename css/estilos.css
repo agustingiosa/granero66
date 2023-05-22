@@ -222,17 +222,43 @@ a {
     border: 2px solid transparent;
     box-shadow: 1px 30px 20px rgba(0, 0, 0, 0.1);
 }
-.services_boxes .box i{
-    font-size: 4rem;
-    color: red;
-    margin-bottom: 2rem;
-}
 .services_boxes .box p{
     color: black;
     margin-top: 10px;
 }
 .services_boxes .box:hover, .br{
     border: 2px solid brown;
+}
+
+.novedades_boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.novedades_boxes .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 50%;
+    background: gainsboro;
+    padding: 2rem;
+    margin: 1rem 2rem;
+    margin-bottom: 5rem;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    box-shadow: 1px 30px 20px rgba(0, 0, 0, 0.1);
+}
+.novedades_boxes .box p{
+    color: black;
+    margin-top: 10px;
+}
+.imagenSection3 {
+    margin: 0 ;
+    width: 70%;
+    height: 70%;
 }
 
 .imagen{
