@@ -1,7 +1,3 @@
-/*selector {
-    propiedad: valor;
-}*/
-
 
 @font-face {
     font-family: air americana;
@@ -34,18 +30,11 @@ a {
     color: black;
 }
 
-
 .footerIcono{
     margin: 0 auto;
     position: relative;
     width: 3rem;
     height: 3rem;
-}
-
-.logo {
-    float: right;
-    width: auto;
-    height: 10rem;
 }
 
 .footertext {
@@ -120,6 +109,19 @@ a {
     }
 }
 
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: air americana;
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.nav-item {
+    margin: 1rem;
+}
+
 /*INDEX*/
 
 /*HEADER PAGINA PRINCIPAL*/
@@ -143,41 +145,6 @@ a {
     height: 7rem;
     margin: 1rem;
     margin-right: 1rem;
-}
-
-.navbar-nav {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    font-family: air americana;
-    font-size: 3rem;
-    margin: 1rem;
-}
-
-.nav-item {
-    margin: 1rem;
-}
-
-.mainheader {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: antiquewhite;
-    padding: 4rem;
-    text-align: center;
-    list-style-type: none;
-    position: fixed;
-    width: 100%;
-    z-index: 1000; 
-}
-
-.mainheader li {
-    display: flex;
-    font-size: 3rem;
-    font-family: air americana; 
-    display: inline-block;
-    margin-right: 3rem;
-    z-index: 100; 
 }
 
 /*PRINCIPAL*/
@@ -480,13 +447,6 @@ a {
 
 /*CONTACTO*/
 
-.bodyC {
-    background-image: url(../img/trabajo.jpg);
-    background-size: 100% 100%;
-    width: 100%;
-    height: 120rem;
-}
-
 /*MAIN*/
 
 .cajaRedes {
@@ -551,14 +511,6 @@ a {
     margin-bottom: 2rem;
 }
 
-form {
-    padding: 5rem 5rem;
-    box-shadow: 0 0 2rem black;
-    border-radius: 2rem;
-    text-align: center;
-    width: 34rem;
-}
-
 .input-group {
     display: flex;
     flex-direction: column;
@@ -598,11 +550,11 @@ input::placeholder, textarea::placeholder {
     text-decoration: none;
 }
 
-.btn {
+.formularioC .btn {
     font-size: 2rem;
-    color: brown;
+    color: green;
     border: 0;
-    border-radius: 2rem;
+    border-radius: 1rem;
     background-color: white;
     box-shadow:  0 0 2rem black;
     cursor: pointer;
@@ -654,10 +606,6 @@ input[type="submit"] {
     transition: all 0.2s ease-in-out;
 }
 
-input[type="submit"]:hover {
-    background-color: brown;
-}
-
 .formularioT {
     display: flex;
     align-items: center;
@@ -675,54 +623,21 @@ input[type="submit"]:hover {
 
 /*MENU*/
 
-/*MENU*/
-.bodyMenu {
-    background-image: url(../img/Granero.Menu_DSC_4054.jpg);
-    margin-bottom: 20rem;
-}
-.bodyMenu .listfooter {
-    bottom: -32rem;
-}
-
-/*HEADER*/
-
-.headerMenu {
+.navbar .navbarMenus {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    height: 98%;
-    width: 40rem;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: #333;
-    color: #fff;
-    border: 1rem solid antiquewhite;
-}
-
-.navMenu {
-    margin-top: 30rem;
-}
-
-.HM {
-    list-style: none;
-    padding: 0;
     margin: 0;
-    display: flex;
-    flex-direction: column;
 }
 
-.headerM {
-    margin-bottom: 20px;
-}
-
-.headerTextMenu {
-    text-decoration: none;
-    color: #fff;
-    font-size: 3rem;
-    font-weight: bold;
-    font-family: air americana;
+.navbarMenus .btn {
+    height: 5rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    border: 0;
+    color: black;
+    background-color: white;
+    cursor: pointer;
 }
 
 /*MAIN*/
@@ -762,38 +677,25 @@ input[type="submit"]:hover {
     align-items: center;
 }
 
-.contenedorSectHamb {
-    position: relative;
-    margin-top: 4rem;
-    display: flex;
-    flex-wrap: wrap;
-    left: 70rem;
-    width: 91rem;
-    overflow: hidden;
-    gap: 3rem;
-}
-
 .contenedorHamb {
-    width: 27rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     height: 40rem;
     margin-bottom: 20px; 
     background-color: #f5f5f5;
-    padding: 4rem;
     border:  1rem solid antiquewhite;
     background-color: rgba(0, 0, 0, 0.8); 
-    overflow: hidden;
 }
 
 .imagenHamb {
-    display: flex;
-    position: relative;
     left: -3.4rem;
     width: 24rem;
     height: 20rem;
 }
 
 .textHamb {
-    text-align: center;
     font-size: 3rem;
     font-family: bebas;
     color: white;
