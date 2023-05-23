@@ -7,68 +7,90 @@
     <title>Document</title>
     <!--favicon-->
     <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+    <!--bootsrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!--css-->
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
-<body class="bodyT">
-    <header class="header2">
-        <nav>
-            <ul>
-                <li class="headerList2"><h2><a class="headerText2" href="../index.html">INICIO</a></h2></li>
-                <li class="headerList2"><h2 class="headerText2" >TRABAJA CON NOSOTROS</h2></li>
-            </ul>
+<body>
+    <!--header-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img class="minilogoI" src="../img/minilogo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        <span>
-            <a href=""><img class="minilogo" src="/img/minilogo.png" alt=""></a>
-        </span>
     </header>
     <main>
-        <section>
-            <form class="cajaFormularioCV">
-                <label class="estiloForm" for="name">Nombre completo:</label>
-                <input type="text" id="name" name="name" required>
-                <label class="estiloForm" for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email" required>
-                <label class="estiloForm" for="phone">Teléfono:</label>
-                <input type="tel" id="phone" name="phone" required>
-                <label class="estiloForm" for="file">Adjuntar CV:</label>
-                <input type="file" id="file" name="file" required>
-                <label class="estiloForm" for="message">Mensaje:</label>
-                <textarea name="message" required></textarea>
-                <input class="botonEnviar" type="submit" value="Enviar">
-            </form>
+        <section class="container text-center">
+            <div class="row">
+                <div class="rounded-5 formularioT input-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" placeholder="Nombre">
+
+                    <label for="phone">telefono</label>
+                    <input type="tel" name="phone" id="phone" placeholder="Telefono">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+
+                    <label for="message">Mensaje</label>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                    
+                    <label class="estiloForm" for="file">Adjuntar CV:</label>
+                    <input type="file" id="file" name="file" required>
+
+                    <div class="form-txt">
+                        <a href="">Politica de privacidad/</a>
+                        <a href="">Terminos y condiciones</a>
+                    </div>
+
+                    <input class="btn" type="submit" value="Enviar">
+                </div>
         </section>
-    <footer class="footerSN">
-        <ul class="listfooter">
-            <li>
-                <img class="logo" src="../img/Logo granero png (1).png" alt="logo del restaurante">
-            </li>
-            <li>
+    <!--footer-->        
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="../img/Logo granero png (1).png" alt="Logo de SLee Dw">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>GRANERO 66</h2>
                 <a class="footertext" href="./seccionesmenus/hamburgesas.html">MENÚ</a>
-            </li>
-            <li>
-                <a class="footertext" href="../pages/ubicacion.html">UBICACION</a>
-            </li>
-            <li>
-                <a class="footertext" href="../pages/quienessomos.html">SOBRE NOSOTROS</a>
-            </li>
-            <li>
-                <a class="footertext" href="../pages/contacto.html">CONTACTO</a>
-            </li>
-            <li>
-                <a class="footertext" href="../pages/trabajo.html">TRABAJA CON NOSOTROS</a>
-            </li>
-            <li>
-                <p>Derechos de autor © 2023 Granero66</p>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/granero66tandil/" target="_blank"><img class="footerIcono" src="../img/Instagram_icon.png.webp" alt=""></a>
-            </li>
-            <li>
-                <a href="https://www.facebook.com/profile.php?id=100075911814016" target="_blank"><img class="footerIcono" src="../img/Facebook_f_logo_(2019).svg.webp" alt=""></a>
-            </li> 
-        </ul>
-    
-    </footer>
+                <a class="footertext" href="./ubicacion.html">UBICACION</a>
+                <a class="footertext" href="./quienessomos.html">SOBRE NOSOTROS</a>
+                <a class="footertext" href="./contacto.html">CONTACTO</a>
+                <a class="footertext" href="./trabajo.html">TRABAJA CON NOSOTROS</a>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/profile.php?id=100075911814016" target="_blank" class="fa fa-facebook"><img class="footerIcono" src="../img/Facebook_f_logo_(2019).svg.webp" alt=""></a>
+                    <a href="https://www.instagram.com/granero66tandil/" target="_blank" class="fa fa-instagram"><img class="footerIcono" src="../img/Instagram_icon.png.webp" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>Granero66</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>

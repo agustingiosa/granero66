@@ -541,7 +541,7 @@ a {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color:gainsboro; 
+    background-color:rgba(0, 0, 0, 0.8); 
     color: #fff; 
     padding: 20px; 
     height: 60rem;
@@ -566,7 +566,7 @@ form {
 }
 
 label {
-    color: black;
+    color: gainsboro;
     font-size: 2rem;
     font-weight: 600;
     margin-bottom: 1.5rem;
@@ -576,8 +576,7 @@ input, textarea {
     padding: 1.7rem 2.5rem;
     border-radius: 2.5rem;
     margin-bottom: 2rem;
-    background-color: gainsboro;
-    border: 2px solid black;
+    background-color: white;
     outline: none;
 }
 
@@ -593,7 +592,7 @@ input::placeholder, textarea::placeholder {
 }
 
 .form-txt a {
-    color: black;
+    color: gray;
     font-size: 2rem;
     font-weight: 600;
     text-decoration: none;
@@ -626,48 +625,13 @@ input::placeholder, textarea::placeholder {
 
 /*MAIN*/
 
-.bodyT {
-    background-image: url(../img/foto\ granero1\ editada.png);
-    background-size: 200%;
-    margin: 0;
-    position: relative;
-    min-height: 100vh;
-}
-
-.imagenTrabajo {
-    position: relative;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.tituloT {
-    display: inline-block;
-    position: relative;
-    left: 25%;
-    font-family: cursive;
-    font-size: 2rem;
-    color: antiquewhite;
-    border: 0.5rem solid antiquewhite;
-    background-color: rgba(0, 0, 0, 0.8);
-}
 /*FORMULARIO*/
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-label {
-    display: block;
-    margin-bottom: 0.5em;
-}
 
 input[type="text"],
 input[type="email"],
 input[type="tel"],
 textarea {
+    display: flex;
     width: 100%;
     padding: 0.5em;
     margin-bottom: 1em;
@@ -694,17 +658,19 @@ input[type="submit"]:hover {
     background-color: brown;
 }
 
-.cajaFormularioCV {
-    background-color: rgba(0, 0, 0, 0.8); 
+.formularioT {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgba(0, 0, 0, 0.8); 
     color: #fff; 
     padding: 20px; 
-    height: 50rem;
+    height: 80rem;
     width: 70rem;
-    margin: 2rem;
-    position: relative;
-    border: 1rem solid antiquewhite;
-    top: 10rem;
-    left: 20%;
+    border: 0.5rem solid antiquewhite;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /*MENU*/
