@@ -536,6 +536,92 @@ a {
     overflow: hidden;
 }
 
+.container .formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:gainsboro; 
+    color: #fff; 
+    padding: 20px; 
+    height: 60rem;
+    width: 70rem;
+    border: 0.5rem solid antiquewhite;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+form {
+    padding: 5rem 5rem;
+    box-shadow: 0 0 2rem black;
+    border-radius: 2rem;
+    text-align: center;
+    width: 34rem;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+input, textarea {
+    padding: 1.7rem 2.5rem;
+    border-radius: 2.5rem;
+    margin-bottom: 2rem;
+    background-color: gainsboro;
+    border: 2px solid black;
+    outline: none;
+}
+
+input::placeholder, textarea::placeholder {
+    color: black;
+}
+
+.form-txt {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.form-txt a {
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn {
+    font-size: 2rem;
+    color: brown;
+    border: 0;
+    border-radius: 2rem;
+    background-color: white;
+    box-shadow:  0 0 2rem black;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #dcdcdc;
+}
+
+@media (max-width:991px) {
+    form {
+        padding: 5rem 3rem;
+        width: 100%;
+    }
+    input {
+        padding: 1.5rem;
+    }
+}
 /*TRABAJO*/
 
 /*MAIN*/
