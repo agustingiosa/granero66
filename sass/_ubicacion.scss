@@ -1,0 +1,54 @@
+
+/*UBICACION*/
+
+/*MAIN*/
+
+.ubicacionHorarios {
+    .contenedor{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+.cajaHorarios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #fff; 
+    padding: 20px; 
+    height: 25rem;
+    border: 1rem solid antiquewhite;
+    font-family: bebas;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.mapa {
+    margin: 2rem;
+    height: 50rem;
+    width: 100%;
+}
+
+.cajaUbicacion {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8); 
+    border: 1rem solid antiquewhite;
+    color: #fff; 
+    padding: 2rem; 
+    height: 57rem;
+    width: 100%;
+    top: 40%;
+    left: 50%;
+    font-family: bebas;
+    font-size: 2rem;
+}
+

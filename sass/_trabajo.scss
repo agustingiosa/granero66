@@ -1,0 +1,58 @@
+
+/*TRABAJO*/
+
+/*MAIN*/
+
+/*FORMULARIO*/
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    display: flex;
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 0.25em;
+    box-shadow: 0 0 0 1px gray;
+}
+
+input[type="file"] {
+    margin-bottom: 1em;
+}
+
+input[type="submit"] {
+    background-color: brown;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 10rem;
+    height: 5rem;
+    font-size: 2rem;  
+}
+
+.formularioT{
+    .btn:hover {
+        background-color: gray;
+    }
+}
+
+
+.formularioT {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgba(0, 0, 0, 0.8); 
+    color: #fff; 
+    padding: 20px; 
+    height: 80rem;
+    width: 70rem;
+    border: 0.5rem solid antiquewhite;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
