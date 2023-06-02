@@ -326,21 +326,12 @@ input::placeholder, textarea::placeholder {
   align-items: center;
 }
 
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .contenedorHamb {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 30rem;
   height: 40rem;
-  margin-left: 0;
-  margin-right: 0;
   margin-bottom: 20px;
   background-color: #f5f5f5;
   border: 1rem solid antiquewhite;
@@ -349,11 +340,11 @@ input::placeholder, textarea::placeholder {
 
 .contenedorHamb:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  transform: scale(1.1);
+  transform: scale(1.05);
+  border: 1rem solid brown;
 }
 
 .imagenHamb {
-  left: -3.4rem;
   width: 24rem;
   height: 20rem;
 }
@@ -362,6 +353,30 @@ input::placeholder, textarea::placeholder {
   font-size: 3rem;
   font-family: bebas;
   color: white;
+}
+
+.containerBackground {
+  background-color: gray;
+}
+
+@media screen and (max-width: 991px) {
+  .contenedorHamb .imagenHamb {
+    width: 20rem;
+    height: 16rem;
+  }
+  .contenedorHamb:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1);
+  }
+}
+@media screen and (max-width: 575px) {
+  .contenedorHamb .imagenHamb {
+    width: 24rem;
+    height: 20rem;
+  }
+}
+background {
+  background-color: antiquewhite;
 }
 
 /*SOBRE NOSOTROS*/
