@@ -5,7 +5,20 @@
   padding: 2rem 1rem;
 }
 .services .title {
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
   text-align: center;
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .services .title h1 {
   padding-top: 5rem;
@@ -273,7 +286,6 @@ input::placeholder, textarea::placeholder {
   border: 0;
   color: black;
   background-color: white;
-  cursor: pointer;
 }
 .navbar .navbarMenus .btn:hover {
   border-bottom: 1rem solid brown;
@@ -324,6 +336,11 @@ input::placeholder, textarea::placeholder {
   background-color: #f5f5f5;
   border: 1rem solid antiquewhite;
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.contenedorHamb:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1);
 }
 
 .imagenHamb {
@@ -657,6 +674,7 @@ a {
 }
 .navbar-nav .nav-link:hover {
   color: gray;
+  transform: scale(1.1);
 }
 
 .nav-item {
