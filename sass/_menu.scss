@@ -28,6 +28,7 @@
     }
 }
 
+
 .menusMain {
     background-image: url(../img/G66-mantel_bandejagrande-30x17cm.jpg);
 }
@@ -111,9 +112,22 @@
         transform: scale(1);
     }
 }
+@media screen and (max-width:400px){
+    .navbar {
+        font-size: 2rem;
+        .navbarMenus{
+            height: rem;
+            padding-top: 1rem;
+            padding-bottom: 3rem;
+        }
+    }
+}
 @media screen and (max-width:575px){
-    .contenedorHamb .imagenHamb{
-        width: 24rem;
-        height: 20rem;
+    .contenedorHamb{ 
+        height: 27rem;
+        .imagenHamb{
+            width: 14rem;
+            height: 10rem;
+        }
     }
 }

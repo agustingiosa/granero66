@@ -7,6 +7,8 @@
     <title>Document</title>
     <!--favicon-->
     <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+    <!--aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--bootsrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!--css-->
@@ -27,10 +29,10 @@
                             <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item" data-aos="zoom-in">
-                            <a class="nav-link active" href="./seccionesmenus/hamburgesas.html">Menu</a>
+                            <a class="nav-link active" href="./seccionesmenus/hamburgesas.html">Menú</a>
                         </li>
                         <li class="nav-item" data-aos="zoom-in">
-                            <a class="nav-link active" href="./ubicacion.html">Horarios y ubicacion</a>
+                            <a class="nav-link active" href="./ubicacion.html">Horarios y ubicación</a>
                         </li>
                         <li class="nav-item" data-aos="zoom-in">
                             <a class="nav-link active" href="./quienessomos.html">Quienes somos</a>
@@ -47,7 +49,7 @@
         </nav>
     </header> 
     <main class="diseñoOtros">
-        <section class="container">
+        <section class="container" data-aos="zoom-in">
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -72,25 +74,25 @@
         </section>
         <section class="container text-center">
             <div class="row">
-                <div class="restaurante col rounded-5">
+                <div class="restaurante col rounded-5" data-aos="zoom-in">
                     <img class="imagenRestaurante" src="../img/foto granero 4.jpg" alt="">
                     <p class="textoRestaurante">Somos un restaurante inspirado en la ruta 66, brindando a nuestros clientes una comida de gran calidad</p>
                 </div>
-                <div class="museo col rounded-5">
+                <div class="museo col rounded-5" data-aos="zoom-in">
                     <img class="imagenMuseo" src="../img/fotomuseo2.jpg" alt="">
-                    <p class="textoMuseo">Con la consumision dentro del restaurante obtendras accesso gratuito al museo de autos clasicos donde podras ver una gran variedad de vehiculos de epoca</p>
+                    <p class="textoMuseo">Con la consumición dentro del restaurante obtendrás acceso gratuito al museo de autos clásicos donde podrás ver una gran variedad de vehículos de época</p>
                 </div>
-                <div class="redes col rounded-5">
+                <div class="redes col rounded-5" data-aos="zoom-in">
                     <a href="https://www.instagram.com/granero66tandil/" target="_blank"><img class="redesSNF" src="../img/Facebook_f_logo_(2019).svg.webp" alt=""></a>
                     <a href="https://www.instagram.com/granero66tandil/" target="_blank"><img class="redesSNI" src="../img/Instagram_icon.png.webp" alt=""></a>
-                    <p class="textoRedes">Enterate de las ultimas novedades a travez de nuestras redes sociales</p>
+                    <p class="textoRedes">Entérate de las ultimas novedades a través de nuestras redes sociales</p>
                 </div>
             </div>
         </section>
     </main>
     
     <!--footer-->        
-    <footer class="pie-pagina">
+    <footer class="pie-pagina" >
         <div class="grupo-1">
             <div class="box">
                 <figure>
@@ -102,7 +104,7 @@
             <div class="box">
                 <h2>GRANERO 66</h2>
                 <a class="footertext" href="./seccionesmenus/hamburgesas.html">MENÚ</a>
-                <a class="footertext" href="./ubicacion.html">UBICACION</a>
+                <a class="footertext" href="./ubicacion.html">UBICACIÓN</a>
                 <a class="footertext" href="./quienessomos.html">SOBRE NOSOTROS</a>
                 <a class="footertext" href="./contacto.html">CONTACTO</a>
                 <a class="footertext" href="./trabajo.html">TRABAJA CON NOSOTROS</a>
@@ -118,7 +120,11 @@
         <div class="grupo-2">
             <small>&copy; 2023 <b>Granero66</b> - Todos los Derechos Reservados.</small>
         </div>
-    </footer>   
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -24,7 +24,6 @@
 .services .title h1 {
   padding-top: 5rem;
   font-size: 2rem;
-  text-transform: capitalize;
 }
 .services .title span {
   color: brown;
@@ -107,6 +106,10 @@
   height: 90rem;
 }
 
+.carroucel1 {
+  padding-top: 0.5rem;
+}
+
 @media (min-width: 768px) and (max-width: 1080px) {
   .iconoHamb {
     height: 10rem;
@@ -154,7 +157,8 @@
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.8);
   color: #fff;
-  padding: 20px;
+  padding: 2rem;
+  margin: 1rem;
   height: 40rem;
   width: 70rem;
   border: 0.5rem solid antiquewhite;
@@ -385,14 +389,31 @@ input::placeholder, textarea::placeholder {
     transform: scale(1);
   }
 }
+@media screen and (max-width: 400px) {
+  .navbar {
+    font-size: 2rem;
+  }
+  .navbar .navbarMenus {
+    height: rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+  }
+}
 @media screen and (max-width: 575px) {
+  .contenedorHamb {
+    height: 27rem;
+  }
   .contenedorHamb .imagenHamb {
-    width: 24rem;
-    height: 20rem;
+    width: 14rem;
+    height: 10rem;
   }
 }
 /*SOBRE NOSOTROS*/
 /*MAIN*/
+.diseñoOtros .container {
+  padding-top: 2rem;
+}
+
 .imagenRestaurante {
   margin: 10px;
   width: 30rem;
@@ -544,6 +565,10 @@ input[type=submit] {
 
 /*UBICACION*/
 /*MAIN*/
+.ubicacionHorarios {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 .ubicacionHorarios .contenedor {
   display: flex;
   align-items: center;
@@ -706,8 +731,8 @@ a {
   display: flex;
   align-items: center;
   text-align: center;
-  font-family: air americana;
-  font-size: 3rem;
+  font-family: bebas;
+  font-size: 4rem;
   margin: 1rem;
 }
 .navbar-nav .nav-link:hover {
@@ -747,6 +772,20 @@ a {
   width: 100%;
   height: 100%;
   overflow: hidden;
+}
+
+@media screen and (max-width: 820px) {
+  .navbar-nav {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar-nav {
+    font-size: 2rem;
+  }
+  .navbar-nav .nav-item {
+    margin: 0;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
