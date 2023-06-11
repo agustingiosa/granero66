@@ -13,6 +13,27 @@
     }
 }
 
+.boton {
+    background-color: brown;
+    color: #fff;
+    width: 10rem;
+    border: none;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+.boton:hover{
+    opacity: 0.9;
+}
+
+
+.maps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .cajaHorarios {
     display: flex;
