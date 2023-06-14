@@ -89,6 +89,11 @@
   overflow: hidden;
 }
 
+.horariosIndex {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
 .iconoHamb {
   width: 10rem;
   height: 10rem;
@@ -799,6 +804,9 @@ a {
   .navbar-nav {
     font-size: 3rem;
   }
+  .imagen {
+    height: 66%;
+  }
 }
 @media screen and (max-width: 400px) {
   .navbar-nav {
@@ -806,6 +814,9 @@ a {
   }
   .navbar-nav .nav-item {
     margin: 0;
+  }
+  .imagen {
+    height: 66%;
   }
 }
 

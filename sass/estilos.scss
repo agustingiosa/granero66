@@ -186,6 +186,9 @@ a {
     .navbar-nav {
         font-size: 3rem;
     }
+    .imagen{
+        height: 66%;
+    }
 }
 
 @media screen and (max-width:400px){
@@ -194,6 +197,9 @@ a {
         .nav-item {
             margin: 0;
         }
+    }
+    .imagen{
+        height: 66%;
     }
 }
 
