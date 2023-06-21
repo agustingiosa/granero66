@@ -32,6 +32,10 @@
 
 /*GENERAL*/
 
+li{
+    list-style: none;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -40,7 +44,6 @@ a {
     text-decoration: none;
     color: black;
 }
-
 
 .diseñoOtros {
     background-image: url(../img/diseño\ background\ byn.jpg);

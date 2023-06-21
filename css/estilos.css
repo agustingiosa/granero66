@@ -311,6 +311,10 @@ input::placeholder, textarea::placeholder {
   border-bottom: 1rem solid brown;
 }
 
+.no-marker {
+  list-style-type: none;
+}
+
 .menusMain {
   background-image: url(../img/G66-mantel_bandejagrande-30x17cm.jpg);
 }
@@ -388,6 +392,9 @@ input::placeholder, textarea::placeholder {
   .contenedorHamb .imagenHamb {
     width: 20rem;
     height: 16rem;
+  }
+  .contenedorHamb .textHamb {
+    font-size: 1.5rem;
   }
   .contenedorHamb:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -658,6 +665,10 @@ input[type=submit] {
 }
 
 /*GENERAL*/
+li {
+  list-style: none;
+}
+
 html {
   font-size: 62.5%;
 }
