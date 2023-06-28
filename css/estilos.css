@@ -453,7 +453,8 @@ input::placeholder, textarea::placeholder {
   height: 40rem;
   width: 70rem;
   border: 0.5rem solid antiquewhite;
-  margin: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .imagenMuseo {
@@ -481,7 +482,8 @@ input::placeholder, textarea::placeholder {
   height: 40rem;
   width: 70rem;
   border: 0.5rem solid antiquewhite;
-  margin: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .redesSNF {
