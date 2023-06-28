@@ -17,28 +17,27 @@
 }
 
 .textoRestaurante {
-    padding: 20px; 
+    padding: 0; 
     height: 50rem;
-    width: 40rem;
+    width: 30rem;
     top: 30%;
-    left: 50%;
     font-family: bebas;
     font-size: 2rem;
 }
 
 .restaurante { 
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     background-color: rgba(0, 0, 0, 0.8); 
     color: #fff; 
     padding: 20px; 
     height: 40rem;
-    width: 70rem;
-    border: 0.5rem solid antiquewhite;
+    border: 1rem solid antiquewhite;
+    font-family: bebas;
+    font-size: 2rem;
     margin-top: 2rem;
-    margin-bottom: 2rem;
 }
 
 .imagenMuseo {
@@ -48,26 +47,27 @@
 }
 
 .textoMuseo {
-    padding: 20px; 
+    padding: 0; 
     height: 50rem;
-    width: 40rem;
+    width: 30rem;
     font-family: bebas;
     font-size: 2rem;
+    margin: 0;
 }
 
 .museo {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     background-color: rgba(0, 0, 0, 0.8); 
     color: #fff; 
-    padding: 2rem; 
+    padding: 20px; 
     height: 40rem;
-    width: 70rem;
-    border: 0.5rem solid antiquewhite;
+    border: 1rem solid antiquewhite;
+    font-family: bebas;
+    font-size: 2rem;
     margin-top: 2rem;
-    margin-bottom: 2rem;
 }
 
 .redesSNF {
@@ -75,35 +75,39 @@
     width: 10rem;
     height: 10rem;
     top: 9rem;
-    left: 5rem;
 }
 .redesSNI {
     margin: 10px;
     width: 10rem;
     height: 10rem;
     top: 7rem;
-    left: 20rem;
 }
 
 .textoRedes {
-    padding: 20px; 
+    padding: 0; 
     height: 50rem;
-    width: 40rem;
+    width: 30rem;
     font-family: bebas;
     font-size: 2rem;
 }
 
+
 .redes { 
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     background-color: rgba(0, 0, 0, 0.8); 
     color: #fff; 
     padding: 20px; 
     height: 40rem;
-    width: 70rem;
-    border: 0.5rem solid antiquewhite;
+    border: 1rem solid antiquewhite;
+    font-family: bebas;
+    font-size: 2rem;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+}
+
+.diseñoSN {
+    background-image: url(../img/diseño\ background\ byn.jpg);
+    padding: 2rem;
 }
